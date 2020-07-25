@@ -1,0 +1,121 @@
+body
+{
+	margin: auto;
+}
+
+#liseter_logo
+{
+	background-color: white;
+	margin-left: 0px;
+}
+
+header
+{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	flex-direction: column;
+	align-items: center;
+	height: auto;
+	text-align: center;
+	font-size: 70%;
+}
+
+#logo_cv
+{
+	align-items: center;
+	margin: 0em;
+	padding: 0em;
+}
+
+#important h2
+{
+	text-align: center;
+}
+
+#important div
+{
+	margin-bottom: 30px;
+}
+
+#conteneur
+{
+	flex-direction: column-reverse;
+}
+
+#detail
+{
+	width: 100%;
+	margin-top: 20px;
+	margin-left: 0px;
+}
+
+#detail p
+{
+	text-align: center;
+}
+
+#detail address div
+{
+	margin-left: 0;
+}
+
+#important
+{
+	width: 90%;
+}
+
+address
+{
+	text-align: center;
+}
+
+#important address
+{
+	width: 100%;
+	margin-top: 20px;
+
+}
+
+.ad
+{
+	flex-direction: column;
+	align-items: center;
+	margin: 0px;
+}
+
+.deco
+{
+	justify-content: center;
+}
+
+ul i.fas,i.far
+{
+	display: none;
+}
+
+dl
+{
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+dt
+{
+	width: 100%;
+	align-items: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+dd
+{
+	margin-left: 0em;
+	text-align: center;
+	width: 100%;
+}
+
+ul.fa-ul
+{
+	margin: 0;
+}

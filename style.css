@@ -1,0 +1,243 @@
+/*general*/
+body
+{
+	margin: 0px;
+	color: #424242;
+}
+
+#liseter_logo, #detail
+{
+	width: 30%;
+	margin-left: 3%;
+}
+
+#logo_cv, #important
+{
+	width: 70%;
+	margin-right: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#conteneur
+{
+	display: flex;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+em, #detail address
+{
+	font-style: normal;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+/*entete*/
+
+header
+{
+	display: flex;
+	height: 250px;
+	te
+}
+
+header h1
+{
+	margin-bottom: 0px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 3em;
+}
+
+h1 span
+{
+	color: #FFEB3B;
+}
+
+h1 + p span
+{
+	border-bottom: 2px solid yellow;
+
+}
+
+header p
+{
+	margin-top: 10px;
+	font-family: "Ubuntu",sans-serif;
+	font-size: 1.6em;
+}
+
+#liseter_logo
+{
+	display: flex;
+	background-color: #FFC107;
+	align-items: center;
+	justify-content: center;
+}
+
+#logo_cv
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+img
+{
+	border-radius: 50%;
+}
+
+/* aside */
+
+#detail
+{
+	display: flex;
+	flex-direction: column;
+	background-color: #FFC107;
+}
+
+#detail section:nth-child(2) 
+{
+	flex: 1;
+}
+
+#detail h2
+{
+	text-align: center;
+	background-color: #424242;
+	color: #FFC107;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+}
+
+#detail address
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+#detail address div
+{
+	padding-bottom: 10px;
+	margin-left: 20px;
+}
+
+#detail p
+{
+	text-align: justify;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.loisir h2
+{
+	margin-bottom: 0px;
+}
+
+.loisir i
+{
+	display: flex;
+	border: 2px solid #424242;
+	border-radius: 50%;
+	margin: auto;
+	padding: 10px;
+	color: #424242;
+}
+
+.loisir div
+{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+/*artcle*/
+
+.deco
+{
+	display: flex;
+	border-bottom: 2px solid #FFC107;
+	align-items: center;
+}
+
+.deco h2
+{
+	margin-left: 3%;
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.7em;
+	color: black;
+}
+
+dd
+{
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+}
+
+dd strong
+{
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	font-size: 1.2em;
+}
+
+dd em
+{
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+dt
+{
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+}
+
+dl
+{
+	display: flex;
+	margin-bottom: 40px;
+}
+
+.ad
+{
+	display: flex;
+	margin-top: 15px;
+}
+
+.reco address
+{
+	width: 50%;
+	font-style: normal;
+}
+
+#important i.fas, i.far
+{
+	color: #FFC107;
+}
+
+#important div
+{
+	margin-bottom: 40px;
+}
+
+.titre_ad
+{
+	margin-top: 0px;
+	margin-bottom: 0.5em;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	font-weight: bold;
+}
