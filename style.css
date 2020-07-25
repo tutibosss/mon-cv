@@ -54,13 +54,12 @@ header h1
 
 h1 span
 {
-	color: #FFEB3B;
+	color: #FFC107;
 }
 
 h1 + p span
 {
-	border-bottom: 2px solid yellow;
-
+	border-bottom: 2px solid #FFC107;
 }
 
 header p
